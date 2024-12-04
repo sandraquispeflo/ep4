@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taberna Mulata - Cafetería</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6f4e37;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Taberna Mulata</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sedes">Nuestras Sedes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#carta">Nuestra Carta</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reserva">Reservas</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Carrusel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" style="height: calc(100vh - 56px);">
+      <div class="carousel-item active">
+        <img src="imagenes/img1.jpg" class="d-block w-100" alt="Café premium" style="object-fit: cover; height: 100%;">
+        <div class="carousel-caption">
+          <h1 style="color: #fff;">Bienvenido a Taberna Mulata</h1>
+          <p style="color: #fff;">Donde cada taza de café cuenta una historia.</p>
+          <a href="#reserva" class="btn btn-light btn-lg">Reserva Ahora</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/img2.jpg" class="d-block w-100" alt="Ambiente acogedor" style="object-fit: cover; height: 100%;">
+        <div class="carousel-caption">
+          <h1 style="color: #fff;">Descubre nuestro ambiente único</h1>
+          <p style="color: #fff;">El espacio ideal para compartir momentos especiales.</p>
+          <a href="#reserva" class="btn btn-light btn-lg">Reserva Ahora</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/img3.jpg" class="d-block w-100" alt="Café y repostería" style="object-fit: cover; height: 100%;">
+        <div class="carousel-caption">
+          <h1 style="color: #fff;">Café y repostería artesanal</h1>
+          <p style="color: #fff;">Cada bocado, una experiencia inolvidable.</p>
+          <a href="#reserva" class="btn btn-light btn-lg">Reserva Ahora</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+
+<!-- Sobre Nosotros -->
+<section id="nosotros" class="container-fluid py-5">
+    <div class="row justify-content-center align-items-center" style="min-height: 100vh;">
+      <div class="col-md-6 text-center">
+        <h2>Sobre Nosotros</h2>
+        <p>
+          En Taberna Mulata nos especializamos en brindar una experiencia única para los amantes del café. 
+          Desde granos cuidadosamente seleccionados hasta un ambiente acogedor, somos el lugar perfecto para disfrutar 
+          de momentos especiales con una buena taza de café.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="imagenes/nosotros.jpg" class="img-fluid" alt="Nuestra cafetería">
+      </div>
+    </div>
+  </section>
+  
+
+ <!-- Nuestras Sedes -->
+<section id="sedes" class="container py-5">
+    <h2 class="text-center">Nuestras Sedes</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagenes/sede1.jpg" class="card-img-top" alt="Sede Principal" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Sede Principal</h5>
+            <p class="card-text">En el centro histórico de la ciudad.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagenes/sede2.jpg" class="card-img-top" alt="Sede Norte" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Sede Norte</h5>
+            <p class="card-text">Un espacio moderno para los amantes del café.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagenes/sede3.jpg" class="card-img-top" alt="Sede Playa" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Sede Playa</h5>
+            <p class="card-text">Disfruta de tu café con vistas al mar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Reservas -->
+  <section id="reserva" class="container py-5">
+    <h2 class="text-center">Haz tu Reserva</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="imagenes/formulario.jpg" class="img-fluid" alt="Imagen de reservas" style="height: auto; max-height: 300px; object-fit: cover;">
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu número de teléfono">
+          </div>
+          <div class="mb-3">
+            <label for="fecha" class="form-label">Fecha</label>
+            <input type="date" class="form-control" id="fecha">
+          </div>
+          <div class="mb-3">
+            <label for="hora" class="form-label">Hora</label>
+            <input type="time" class="form-control" id="hora">
+          </div>
+          <button type="submit" class="btn" style="background-color: #6f4e37; color: white;">Reservar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Taberna Mulata. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

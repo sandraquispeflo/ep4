@@ -1,0 +1,82 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #faf3e0; /* Beige claro */
+    color: #4d3c2f; /* Marrón oscuro */
+    margin: 0;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-color: #6f4e37; /* Marrón */
+  }
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f8f1e7; /* Beige */
+  }
+  .navbar-brand:hover {
+    color: #fff;
+  }
+  .nav-link {
+    color: #f8f1e7;
+    transition: color 0.3s ease-in-out;
+  }
+  .nav-link:hover {
+    color: #fff;
+  }
+
+  /* Carrusel */
+  #carouselExample {
+    height: calc(100vh - 56px);
+  }
+  .carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  .carousel-caption h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  .carousel-caption p {
+    font-size: 1.2rem;
+    color: #f8f1e7;
+  }
+  .btn-reserva {
+    background-color: #6f4e37;
+    color: #f8f1e7;
+  }
+  .btn-reserva:hover {
+    background-color: #543d2b;
+  }
+
+  /* Video */
+  .video-section {
+    padding: 0;
+    margin: 0;
+  }
+  .video-section .ratio {
+    height: 100vh;
+  }
+
+  /* Cards */
+  .card {
+    border: none;
+  }
+  .card-img-top {
+    border-radius: 10px;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #6f4e37;
+    color: #f8f1e7;
+    text-align: center;
+    padding: 1rem 0;
+  }
